@@ -4,20 +4,27 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className='relative bg-black h-screen'>
+    <div className='bg-black min-h-screen'>
       <Nav />
-      <div className='container mx-auto px-10 pt-24 lg:pt-0'>
-        <div className='bg-hero mt-24 rounded-lg text-center mx-auto'>
-          <div className="pt-10">
-            <h1 className="pb-5 text-3xl text-white">Home Park Service</h1>
-            <p className='text-white'>
-              is one of the best valet parking service providers in Lebanon
-              <br /> in short time, the company faced may struggles, however
-              <br /> the company has established a strong foothold in the Vale{" "}
-              <br />
-              Parking business. The company has build a reputation for <br />{" "}
-              providing the highest quality services in the industry.
-            </p>
+      <div className='container mx-auto px-5 mt-4 lg:pt-0'>
+        <div className='relative h-[600px] bg-cover bg-center bg-hero rounded-2xl'>
+          <div className='absolute bottom-52  inset-0 flex items-center justify-center text-white'>
+            <div className='text-center font-light'>
+              <h1 className='text-4xl pb-3'>Home Park Service</h1>
+              <p className='mt-2 text-2xl leading-loose'>
+                is one of the best valet parking service providers in Lebanon{" "}
+                <br /> in short time, the company faced may struggles, however{" "}
+                <br /> the company has established a strong foothold in the Vale{" "}
+                <br /> Parking business. The company has build a reputation for{" "}
+                <br /> providing the highest quality services in the industry.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className='mt-24'>
+          <h1 className='text-white text-4xl'>Your Car is in safe hands</h1>
+          <div>
+            
           </div>
         </div>
       </div>
