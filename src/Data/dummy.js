@@ -1,3 +1,5 @@
+import dummyImg from "../assets/images/Rectangle (1).png";
+
 export const aboutData = [
   {
     title: "Professionalism",
@@ -21,5 +23,39 @@ export const aboutData = [
     title: "Tempor incididunt",
     subtitle:
       "through all the years we worked in this field we have had better and better experience to serve our clients professionally",
+  },
+];
+
+export const dataReview = [
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
+  },
+
+  {
+    img: dummyImg,
   },
 ];
