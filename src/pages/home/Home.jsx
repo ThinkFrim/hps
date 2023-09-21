@@ -1,3 +1,4 @@
+import { aboutData } from "../../Data/dummy";
 import Footer from "../../components/footer/Footer";
 import Nav from "../../components/nav/Nav";
 import "./home.css";
@@ -21,11 +22,17 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='mt-24'>
-          <h1 className='text-white text-4xl'>Your Car is in safe hands</h1>
-          <div>
-
-          </div>
+      </div>
+      <div className='container mx-auto px-5 mt-24'>
+        <h1 className='text-white text-4xl pb-10'>Your Car is in safe hands</h1>
+        <div className='grid grid-cols-2 gap-20 pt-5'>
+          {aboutData.map((item, index) => (
+            <div className='flex flex-col text-white' key={index}>
+              <h1 className="text-2xl pb-2">{item.title}</h1>
+              <p>{item.subtitle}</p>
+              <button className="self-start p-2 border-2 border-mainBlue text-mainBlue my-5 rounded-md">Learn more</button>
+            </div>
+          ))}
         </div>
       </div>
       {/* <Footer /> */}
