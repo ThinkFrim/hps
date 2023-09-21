@@ -4,9 +4,9 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className='bg-black min-h-screen'>
+    <div className='bg-black h-full pt-5'>
       <Nav />
-      <div className='container mx-auto px-5 mt-4 lg:pt-0'>
+      <div className='container mx-auto px-5 mt-14 lg:pt-0'>
         <div className='relative h-[600px] bg-cover bg-center bg-hero rounded-2xl'>
           <div className='absolute bottom-52  inset-0 flex items-center justify-center text-white'>
             <div className='text-center font-light'>
@@ -24,7 +24,7 @@ const Home = () => {
         <div className='mt-24'>
           <h1 className='text-white text-4xl'>Your Car is in safe hands</h1>
           <div>
-            
+
           </div>
         </div>
       </div>

@@ -9,9 +9,9 @@ const Nav = () => {
   };
 
   return (
-    <nav className='relative container mx-auto flex items-center justify-between pt-10 px-5 w-full'>
+    <nav className='relative container mx-auto flex items-center justify-between  px-5 w-full'>
       <h1 className='text-white'>Logo</h1>
-      <div className='z-20 flex justify-between lg:hidden'>
+      <d  iv className='z-20 flex justify-between lg:hidden'>
         <Slant
           direction='right'
           color={isOpen ? "#000" : "#fff"}
@@ -20,7 +20,7 @@ const Nav = () => {
           size={20}
           onToggle={toggleMenu}
         />
-      </div>
+      </d>
       <ul
         className={`${
           isOpen
