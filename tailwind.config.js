@@ -1,20 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+/** @type {import('./src/assets/images/banner.png}*/
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
     },
     extend: {
       colors: {
-        mainBlue: '#18A0FB'
-      }
+        mainBlue: "#18A0FB",
+      },
     },
   },
   plugins: [],
-}
+};
