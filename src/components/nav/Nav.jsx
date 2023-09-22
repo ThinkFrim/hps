@@ -10,7 +10,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className='relative container mx-auto flex items-center justify-between px-5 w-full'>
+    <nav className='relative container mx-auto flex items-center justify-between px-5 w-full'> 
       <img src={logo} alt="" className="w-[15%]" />
       <div className='z-50 flex justify-between lg:hidden'>
         <Slant
