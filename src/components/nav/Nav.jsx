@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Slant as Hamburger, Slant } from "hamburger-react";
 import logo from '../../assets/logo/HPS-WHITE.png'
+import logob from '../../assets/logo/HPS-BLACK.png'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ const Nav = () => {
             ? "flex flex-col gap-10 items-center fixed left-0 right-0 top-0 bottom-0 w-full h-full text-center bg-white py-[50%] md:py-[30%] z-40"
             : "hidden"
         } lg:flex gap-10 cursor-pointer`}>
+        <img src={logob} alt="" className="w-[20%] absolute top-0 left-0 hidden"/>
         <li className='text-mainBlue hover:text-white transition duration-300 ease-in-out'>
           About Us
         </li>

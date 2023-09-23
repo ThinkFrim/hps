@@ -22,7 +22,7 @@ const Footer = () => {
           <img src={dummyImg} alt='' />
           <img src={dummyImg} alt='' />
         </div>
-        <h1 className="text-white pb-3 text-center">© HPS, Inc. 2023.  We love our site surfers! by Thinkfrim</h1>
+        <h1 className="text-white pb-3 text-center">© HPS, Inc. 2023.  We love our site surfers! by <a href="thinkfrim.com">Thinkfrim</a></h1>
       </div>
     </footer>
   );
