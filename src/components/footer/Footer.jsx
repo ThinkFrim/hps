@@ -10,7 +10,7 @@ const Footer = () => {
           <li>community</li>
           <li>community</li>
           <div className='self-center'>
-            <img src={logo} alt='' className='w-1/4 md:w-1/3 mx-auto' />
+            <img src={logo} alt='' className='w-1/4 mx-auto' />
           </div>
           <li>community</li>
           <li>community</li>

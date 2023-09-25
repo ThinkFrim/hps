@@ -1,12 +1,17 @@
-
-import Nav from "./components/nav/Nav";
-import Cards from "./components/cards/Cards";
+import { Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
+import { Route } from "react-router-dom";
+import Contact from "./pages/contact/Contact";
+import Services from "./pages/ourServices/Services";
 
 const App = () => {
   return (
-    <div>
-      <Home />
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/services' element={<Services />} />
+      </Routes>
     </div>
   );
 };

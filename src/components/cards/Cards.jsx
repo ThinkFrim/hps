@@ -1,14 +1,15 @@
-import React from 'react';
-
-
-const Cards = ({aboutData}) => (
+    import React from "react";
+    import aboutData from "../../Data/dummy";
+    const Cards = ({ headText, subText, img, className }) => (
     <section>
-        <div className="bg-white shadow-md rounded-md p-4 mx-4 my-4 w-72">
-            <h2 className="text-xl font-semibold">{aboutData}</h2>
-            <p className="text-gray-700 mt-2">{aboutData}</p>
+        <div className={`${className} flex flex-row-reverse items-center`}>
+        <img src={img} alt='' />
+        <div>
+            <h1>{headText}</h1>
+            <p className='text-gray-700 mt-2'>{subText}</p>
         </div>
-
+        </div>
     </section>
-  )
+    );
 
-export default Cards
+    export default Cards;

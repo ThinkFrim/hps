@@ -1,4 +1,5 @@
 import dummyImg from "../assets/images/Rectangle (1).png";
+import serviceImg from "../assets/images/serviceImg.png";
 
 export const aboutData = [
   {
@@ -57,5 +58,22 @@ export const dataReview = [
 
   {
     img: dummyImg,
+  },
+];
+
+export const serviceData = [
+  {
+    img: serviceImg,
+    title: "Parking Management",
+  },
+
+  {
+    img: serviceImg,
+    title: "Valet Services",
+  },
+
+  {
+    img: serviceImg,
+    title: "Shuttle Services",
   },
 ];

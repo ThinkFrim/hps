@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-/** @type {import('./src/assets/images/banner.png}*/
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
