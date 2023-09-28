@@ -11,8 +11,7 @@ const Nav = () => {
 
   return (
     <nav className='relative container mx-auto flex items-center justify-between'>
-      
-        <img src={logo} alt='' className='w-[30%] md:w-[15%]' />
+      <img src={logo} alt='' className='w-[30%] md:w-[15%]' />
       <div className='z-50 flex justify-between lg:hidden'>
         <Slant
           direction='right'
